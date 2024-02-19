@@ -36,8 +36,8 @@
 
             bindings = <
 &trans  &kp N1  &kp N2  &kp N3    &kp N4    &kp N5       &kp N6     &kp N7     &kp N8     &kp N9  &kp N0  &trans
-&trans  &none   &none   &none     &kp UP    &none        &mkp LCLK  &mkp MCLK  &mkp RCLK  &none   &none   &kp DEL
-&trans  &none   &none   &kp LEFT  &kp DOWN  &kp RIGHT    &none      &none      &none      &none   &none   &trans
+&trans  &trans  &trans  &trans    &kp UP    &trans       &mkp LCLK  &mkp MCLK  &mkp RCLK  &trans  &trans  &kp DEL
+&trans  &trans  &trans  &kp LEFT  &kp DOWN  &kp RIGHT    &trans     &trans     &trans     &trans  &trans  &trans
                         &kp LALT  &trans    &kp SPACE    &kp RET    &mo 3      &kp LGUI
             >;
         };
@@ -51,8 +51,8 @@
 
             bindings = <
 &trans  &kp EXCL   &kp AT     &kp HASH   &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS  &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &trans
-&trans  &kp GRAVE  &kp MINUS  &kp EQUAL  &none     &none        &kp SEMI   &kp APOS  &kp BSLH         &kp LBKT  &kp RBKT  &kp DEL
-&trans  &kp TILDE  &kp UNDER  &kp PLUS   &none     &none        &kp COLON  &kp DQT   &kp PIPE         &kp LBRC  &kp RBRC  &trans
+&trans  &kp GRAVE  &kp MINUS  &kp EQUAL  &trans    &trans       &kp SEMI   &kp APOS  &kp BSLH         &kp LBKT  &kp RBKT  &kp DEL
+&trans  &kp TILDE  &kp UNDER  &kp PLUS   &trans    &trans       &kp COLON  &kp DQT   &kp PIPE         &kp LBRC  &kp RBRC  &trans
                               &kp LALT   &mo 3     &kp SPACE    &kp RET    &trans    &kp LGUI
             >;
         };
@@ -60,8 +60,8 @@
         layer_3 {
             bindings = <
 &kp F12  &kp F1         &kp F2         &kp F3         &kp F4         &kp F5           &kp F6     &kp F7        &kp F8           &kp F9      &kp F10  &kp F11
-&none    &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &none      &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_MUTE  &none    &none
-&none    &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &none      &none         &none            &none       &none    &bt BT_CLR
+&trans   &bt BT_SEL 0   &bt BT_SEL 1   &bt BT_SEL 2   &bt BT_SEL 3   &bt BT_SEL 4     &trans     &kp C_VOL_DN  &kp C_VOLUME_UP  &kp C_MUTE  &trans   &trans
+&trans   &bt BT_DISC 0  &bt BT_DISC 1  &bt BT_DISC 2  &bt BT_DISC 3  &bt BT_DISC 4    &trans     &trans        &trans           &trans      &trans   &bt BT_CLR
                                        &kp LEFT_ALT   &trans         &kp SPACE        &kp ENTER  &trans        &kp LGUI
             >;
         };
