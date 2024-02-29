@@ -12,6 +12,7 @@
     flavor = "balanced";
     require-prior-idle-ms = <210>;
     tapping-term-ms = <500>;
+    hold-trigger-key-positions = <14 15 16 13 19 20 21>;
 };
 
 / {
