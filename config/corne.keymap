@@ -18,15 +18,6 @@
 };
 
 / {
-    behaviors {
-        backspace_delete: backspace_delete {
-            compatible = "zmk,behavior-tap-dance";
-            label = "BACKSPACE_DELETE";
-            #binding-cells = <0>;
-            bindings = <&kp BACKSPACE>, <&kp DEL>;
-        };
-    };
-
     keymap {
         compatible = "zmk,keymap";
 
