@@ -13,6 +13,7 @@
     require-prior-idle-ms = <210>;
     tapping-term-ms = <200>;
     hold-trigger-key-positions = <14 15 16 13 19 20 21>;
+    hold-trigger-on-release;
 };
 
 / {
